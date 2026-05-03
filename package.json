@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "@gsap/react": "^2.1.2",
     "@highcharts/map-collection": "^2.3.2",
     "@lottiefiles/dotlottie-react": "^0.17.8",
