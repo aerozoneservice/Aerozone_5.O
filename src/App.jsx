@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import './App.css';
 import GlobalLoader from "./components/GlobalLoader";
 import Sidebar from "../components/MainChart/Sidebar";
+import Chatbot from "./components/Chatbot";
 
 import MainChart from "../pages/MainChart";
 import Home from "../pages/Home";
@@ -67,6 +68,7 @@ function App() {
             <Route path="/about" element={<About />} />
           </Routes>
         </div>
+        <Chatbot />
       </div>
     </>
   );
